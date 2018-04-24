@@ -1,0 +1,179 @@
+﻿.index-banner{
+    position:relative;
+    background:#b3b3b3;
+}
+.index-banner{
+    height:570px;
+    overflow:hidden;/*<!-隐藏滚动条->*/
+}
+.index-banner .index-banner-bg img{
+    margin:0 auto;
+}
+.index-banner-text{
+    position:absolute;
+    top:200px;
+    left:50%;
+    margin-left:-388px;
+}
+.index-banner-text .index-banner-logo{
+    width:776px;
+    height:117px;
+    background:url("images/index-logo.png");
+}
+.index-banner .index-banner-text .index-banner-text-p{
+    color:#fff;
+    text-align:center;
+    margin-top:17px;
+}
+.index-banner-text .line{
+    display:inline-block;
+    width:40px;
+    border-top: 1px solid #fff;
+    vertical-align:middle;
+}
+#banner-span{
+    margin:0 26px;
+}
+.index-list{
+    height:602px;
+    position:relative;
+    background:#fff;
+
+}
+/*商品列表css*/
+
+.index-list-line {
+    border-top: 5px solid #f34949;
+}
+.index-list .index-list-logo{
+    margin:0 auto;
+}
+.index-list .index-list-logo-text{
+    position:absolute;
+    top:25px;
+    left:50%;
+    margin-left:-50px;
+    width:89px;
+    height:15px;
+    background:url("images/The Menu.png");
+}
+.index-list .index-list-nav-l{
+    float:left;
+}
+.index-list .index-list-nav-r {
+    float: right;margin-right:-55px;
+}
+.index-list .index-list-nav{
+    width:520px;margin-top:60px; margin-bottom:0;
+}
+.index-list .index-list-nav .index-list-demo{
+     display:inline-block;
+}
+.index-list .index-list-nav span {
+    display: inline-block;
+    border-top: 2px solid #e3e1e1;
+    width: 192px;
+    margin-left:44px;
+    margin-right:44px;
+    padding-top:4px;
+}
+.index-list .index-list-nav i{
+    color:#e3e1e1;
+    font-size:13px;
+}
+.index-list-more{
+    margin:494px 484px 0 484px; clear:both;
+}
+/*商品展示CSS*/
+
+.index-panel{
+    margin-top:200px; height:362px; background:#fff;
+}
+.index-panel-header h3{
+    float:left;
+    font-size:20px;
+    font-weight:normal;
+    margin-right:48px;
+    color:#3b3b3b;
+}
+.index-panel-line{
+    float:left;
+    width:200px;
+    border:1px solid #e5e3e3;
+    margin-top:7px;
+}
+.index-panel-btngroup{
+    float:right;
+    font-size:0;
+}
+.index-panel-btngroup .btn{
+    display:inline-block;
+    background:#dedede;
+    width:9px;
+    height:9px;
+    margin-left:11px;
+    border-radius:50%;
+}
+.index-panel-btngroup .active{
+    background:#9b9b9b;
+}
+/*商品展示CSS     具体    */
+.index-panel-body{
+    margin-top:75px;clear:both;
+}
+.index-panel-bady ul{
+    width:1160px;
+}
+.food-list{
+    float:left;
+    width:230px;
+    margin-right:60px;
+}
+.food-list-footer{
+    float: left;
+    width: 230px;
+    margin-right:0;
+}
+.food-list .food-list-img{
+    margin-bottom:30px;
+    
+}
+.food-name span{
+    float:right;
+}
+.food-list .stargroup{
+    font-size:0;
+}
+.food-list .stargroup .star{
+    display:inline-block;
+    width:13px;
+    height:13px;
+    margin-top:5px;
+    margin-right:5px;
+    background:url("images/star.png");
+}
+.food-list .stargroup .nostar{
+    background-position:0 13px;
+}
+/*商品展示 HOT图片集*/
+.food-hot {
+    float: left;
+    height: 381px;
+    overflow:hidden;
+    margin-bottom:200px;
+}
+.food-hot-1 {
+    width: 353px; 
+}
+.food-hot-2 {
+    width: 287px;
+    height: 255px;
+}
+.food-hot-3 {
+    width: 287px;
+    height: 126px;
+    
+}
+.food-hot-4 {
+    width: 460px;
+}

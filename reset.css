@@ -1,0 +1,29 @@
+﻿body,div,dd,dt,dl,ul,li,h1,h2,h3,h4,h5,input,a,p,form,textarea
+{
+    margin:0;
+    border:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+ol,ul,li{
+    list-style:none;/*去除默认列表前面的点样式*/
+}
+a{
+    text-decoration:none;
+    display:block;
+}
+img{
+    border:none;
+    display:block;
+}
+.clearfloat{
+    zoom:1;
+}
+.clearfloat{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0;
+}
